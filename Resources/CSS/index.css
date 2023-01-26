@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    height: 249px;
+    width: 1264px;
+    display: inline-block;
+    border: 3px solid red;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    color: khaki;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 1264px;
+    height: 115px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+}
+
+.heading img {
+   /* display: inline-block;*/
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.item {
+    background-color: green;
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+
