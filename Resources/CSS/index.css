@@ -41,20 +41,24 @@
 }
 
 .brushes {
+    display: block;
     color: white;
     font-family: Helvetica;
     font-size: 32px;
     background-color: mediumspringgreen;
     position: relative;
-    margin-top: 10px;
+    margin-top: 26.56px;
+    margin-bottom: 26.56px;
     z-index: 1;
 }
 
-.h-brush {
-    padding-top: 35px;
-}
+/*.h-brush {
+    padding-top: 30px;
+}*/
 
-.a {
+
+
+.price {
     font-family: Helvetica;
     font-weight: bold;
     color: blue;
@@ -69,7 +73,7 @@
 }
 
 .frame-pic {
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
 .paint {
@@ -81,6 +85,6 @@
 }
 
 .paint-tubes {
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
